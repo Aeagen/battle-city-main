@@ -1,11 +1,10 @@
-# battle-city
-
-![game home screen](/images/screens/demo.png)
+# Tank combat
 
 forked from
 * [galaamn/battle-city](https://github.com/galaamn/battle-city)
 * [softpedia.com](http://linux.softpedia.com/get/GAMES-ENTERTAINMENT/Arcade/BattleCity-Tanks-59571.shtml)
 * [code.google.com](https://code.google.com/archive/p/battle-city-tanks/)
+* [Movelocity-improver](https://github.com/Movelocity/battle-city)
 
 ## Controls
 - Player 1: * movement: up/left/down/right * fire: space
@@ -19,3 +18,15 @@ Please ensure that pygame is installed in your environment.
 # require cv2 to visualize the captured state
 python main.py
 ```
+
+## Purpose 
+This project is designed to use reinforcement learning to train the env nedded for tank combat
+
+## Main content
+the class of the Game in the game.py 
+And need to initialize the object of the game
+
+The function:
+* Game.reset()
+* Game.step()
+
